@@ -7,4 +7,11 @@ public class Triangle {
         sideB = b;
         sideC = c;
     }
+
+    double trianglePerimeter(){
+
+        double result = sideA + sideB + sideC;
+
+        return result;
+    }
 }

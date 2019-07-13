@@ -5,4 +5,11 @@ public class Circle {
     Circle(double rad){
         radius = rad;
     }
+
+    double circleArea(){
+
+        double result = 3.14 * radius * radius;
+
+        return result;
+    }
 }
